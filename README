@@ -1,0 +1,3 @@
+Hello, user! This script is used for cleaning your docker images via "sudo docker rmi". File "script.py" provides more convinient parsing for output of "sudo docker images" and nothing else.
+Usage:
+./new.sh <string> 		, where <string> is a pattern in name of image which is to stay. For example, if I want to delete ALL images apart from something starting with "nickname/..." I'd use "./new.sh nickname". This leads to deleting all docker images, but keeping "nickname/*".
